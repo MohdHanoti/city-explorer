@@ -1,71 +1,50 @@
-# Getting Started with Create React App
+# Location Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Author**: Mohammad Alhanoti
+**Version**: 1.0.0 
 
-## Available Scripts
+## Overview
+This is an applecation that asks you to put any city name in the world and will give you the location information to that city.
 
-In the project directory, you can run:
 
-### `npm start`
+## Getting Started
+1.	Recive the data from the user using (form).
+2.	Collect the data from the form 
+3.	Send the request from the react app to the third party using (axios)
+4.	Now we send the data that we collect from form to search on it in the location Iq server 
+5.	We find our data as an array of object… we collect our data from one of these objects and store it in variables.
+6.	After that we display the result to the user.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Architecture
+Botstrap form are used in this applecation.
+also Location IQ is used to give us the information.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Change Log
+7pm 28/8/2022 is the time of creation of this app.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Credit and Collaborations
+https://my.locationiq.com/
+https://react-bootstrap.github.io/forms/overview/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Name of feature: third party API
 
-### `npm run eject`
+Estimate of time needed to complete: 2 hours
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Start time: 4:50pm
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Finish time: 7:50pm
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Actual time needed to complete: 3 hours 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# city-explorer
+![partner work](./partner/api.png)
+Data flow:
+1.	Recive the data from the user using (form).
+2.	Collect the data from the form 
+3.	Send the request from the react app to the third party using (axios)
+4.	Now we send the data that we collect from form to search on it in the location Iq server 
+5.	We find our data as an array of object… we collect our data from one of these objects and store it in variables.
+6.	After that we display the result to the user.
